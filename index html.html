@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>index html</title>
+<link rel="stylesheet" type="text/css" href="style 1.css">
+</head>
+<body>
+<div class="container">
+<header class="header">
+<div class="logo">
+    <img src="Pubg.png" width="100">
+</div>
+<nav class="nav">
+    <h1>
+       WELCOME TO ONLINE TOURNAMENT PUBGM SEASON 1
+    </h1>
+    <ul>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#logout">Logout</a></li>
+    </ul>
+</nav>
+</header>
+<div class="wrapper">
+<aside class="sidebar">
+    <div style="padding: 10px;">
+        <b>Menu</b><br>
+<hr>
+    <a href="#">Home</a><br />
+    <a href="#">Biodata</a><br />
+    <a href="#">Update Biodata</a><br />
+    <a href="#">Contact</a><br />
+    </div>
+</aside>
+
+<main class="content">
+    <div style="padding: 10px;">
+    <h2 style="margin: 0px;">UPDATE BIODATA PEMAIN</h2>
+    <hr/>
+    <form action=" formulir.php" method="post" onSubmit="return ValidasiForm()" name="FormReg">
+        <table>
+            <tr>
+            <td>Nama Tim</td>
+            <td>:</td>  
+    <td><input type="text" name="nama" value="" placeholder="tulis nama tim anda" /><br/>  
+
+        <small style="color: red" id="err_nama"></small>
+    </td>
+    </tr>
+    <tr>
+        <td>Nomor Tim</td>
+        <td>:</td>
+    <td> <input type="number" name="number" placeholder="tulis nomor tim anda" /><br/>
+        <small style="color: red" id="err_number"></small>
+    </td>
+    </tr>
+        <tr>
+            <td>Nama Pemain</td>
+            <td>:</td>
+            
+        <td><input type="text" name="nama" value="" placeholder="tuliskan nama anda" /><br/>
+            <small style="color: red" id="err_nama"></small>
+        </td>
+         </tr>
+            <tr>
+                <td>Nickname In Game</td>
+            <td>:</td>
+            
+        <td><input type="text" name="nama" value="" placeholder="tuliskan nickname anda" /><br/>
+            <small style="color: red" id="err_nama"></small>
+        </td>
+         </tr>
+         <tr>
+            <td>Id Pemain</td>
+            <td>:</td>
+        <td> <input type="number" name="number" placeholder="tulis id anda" /><br/>
+            <small style="color: red" id="err_number"></small>
+        </td>
+        </tr>
+        <tr>
+            <td>Asal Kota</td>
+            <td>:</td>
+            
+        <td><input type="text" name="nama" value="" placeholder="tuliskan nama kota anda" /><br/>
+            <small style="color: red" id="err_nama"></small>
+        </td>
+         </tr>
+         <tr>
+            <td>Jenis Kelamin</td>
+            <td>:</td>
+            <td><input type="radio" name="jenis_kelamin" value="laki-
+                laki" checked /> Laki - Laki
+                
+                <input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan
+                <br/>
+                <small style="color: red" id="err_jenis_kelamin"></small>
+                </td>
+            </tr>
+            <tr>
+                <td>Komentar</td>
+                <td>:</td>
+                <td><textarea name="komentar" rows="3" cols="50"></textarea>
+                
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="right"><button> simpan</button> </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</main>
+</div>
+<footer class="footer">
+</footer>
+</div>
+</body>
+</html>
+          
+        
+
